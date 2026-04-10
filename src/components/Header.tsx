@@ -1,4 +1,4 @@
-import { Instagram } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 
 const Header = () => {
   return (
@@ -9,11 +9,11 @@ const Header = () => {
           <span className="text-xl font-bold tracking-tight">Assados Franz</span>
         </div>
         <div className="flex gap-4">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+            <Facebook size={24} />
+          </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
             <Instagram size={24} />
-          </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-            <img src="https://img.icons8.com/?size=48&id=118497&format=png" alt="Facebook" className="w-6 h-6 invert" />
           </a>
           <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
