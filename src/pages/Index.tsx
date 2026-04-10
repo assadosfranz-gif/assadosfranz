@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -9,12 +8,11 @@ const Index = () => {
         <iframe
           src="https://pedido.brendi.com.br/assadosfranz"
           className="w-full h-full border-0"
-          style={{ minHeight: "calc(100vh - 120px)" }}
+          style={{ minHeight: "calc(100vh - 64px)" }}
           title="Pedido Online"
           allow="geolocation; payment"
         />
       </main>
-      <Footer />
     </div>
   );
 };
