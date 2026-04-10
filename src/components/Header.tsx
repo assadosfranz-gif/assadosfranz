@@ -1,3 +1,5 @@
+import { Facebook, Instagram, MessageCircle } from "lucide-react";
+
 const Header = () => {
   return (
     <header className="bg-primary text-primary-foreground shadow-lg">
@@ -6,11 +8,17 @@ const Header = () => {
           <img src="/favicon.ico" alt="Logo" className="h-10 w-10 rounded-md" />
           <span className="text-xl font-bold tracking-tight">Assados Franz</span>
         </div>
-        <nav className="hidden md:flex gap-6 text-sm font-medium">
-          <a href="/" className="hover:opacity-80 transition-opacity">Início</a>
-          <a href="#" className="hover:opacity-80 transition-opacity">Cardápio</a>
-          <a href="#" className="hover:opacity-80 transition-opacity">Contato</a>
-        </nav>
+        <div className="flex gap-4">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+            <Facebook size={24} />
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+            <Instagram size={24} />
+          </a>
+          <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+            <MessageCircle size={24} />
+          </a>
+        </div>
       </div>
     </header>
   );
