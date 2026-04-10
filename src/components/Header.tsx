@@ -2,7 +2,7 @@ import { Facebook, Instagram } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="bg-primary text-primary-foreground shadow-lg">
+    <header className="text-white shadow-lg" style={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}>
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <div className="flex items-center gap-3">
           <img src="/favicon.ico" alt="Logo" className="h-10 w-10 rounded-md" />
